@@ -1,0 +1,74 @@
+Last login: Mon Dec 28 02:30:47 on ttys000
+jiaoshy@jiaoshydeMacBook-Pro ~ % gradlew
+zsh: command not found: gradlew
+jiaoshy@jiaoshydeMacBook-Pro ~ % ./gradlew
+zsh: no such file or directory: ./gradlew
+jiaoshy@jiaoshydeMacBook-Pro ~ % pwd
+/Users/jiaoshy
+jiaoshy@jiaoshydeMacBook-Pro ~ % cd Documents 
+jiaoshy@jiaoshydeMacBook-Pro Documents % cd GitHub 
+jiaoshy@jiaoshydeMacBook-Pro GitHub % ls
+AI		XD		cool-project	hex-school	motion-web
+Gradle		apple		e_commerce	java-map	mysql
+Java		blog		froopyland	java-notes	spring
+Java-Mind-Map	community	full-stack	javascript30
+jiaoshy@jiaoshydeMacBook-Pro GitHub % cd Gradle 
+jiaoshy@jiaoshydeMacBook-Pro Gradle % ls
+demo
+jiaoshy@jiaoshydeMacBook-Pro Gradle % cd demo
+jiaoshy@jiaoshydeMacBook-Pro demo % ./gradlew run
+Downloading https://services.gradle.org/distributions/gradle-6.7.1-bin.zip
+.........10%..........20%..........30%..........40%..........50%.........60%..........70%..........80%..........90%..........100%
+
+> Task :app:run
+Hello World!
+
+BUILD SUCCESSFUL in 25s
+2 actionable tasks: 2 executed
+jiaoshy@jiaoshydeMacBook-Pro demo % ./gradlew run
+
+> Task :app:run
+Hello World!
+
+BUILD SUCCESSFUL in 611ms
+2 actionable tasks: 1 executed, 1 up-to-date
+jiaoshy@jiaoshydeMacBook-Pro demo % ./gradlew build
+
+BUILD SUCCESSFUL in 1s
+7 actionable tasks: 6 executed, 1 up-to-date
+jiaoshy@jiaoshydeMacBook-Pro demo % ./gradlew build --scan
+
+BUILD SUCCESSFUL in 6s
+7 actionable tasks: 7 up-to-date
+
+Publishing a build scan to scans.gradle.com requires accepting the Gradle Terms of Service defined at https://gradle.com/terms-of-service. Do you accept these terms? [yes, no] yes
+
+Gradle Terms of Service accepted.
+
+Publishing build scan...
+https://gradle.com/s/z4iunyml2hk2m
+
+jiaoshy@jiaoshydeMacBook-Pro demo % sdk install springboot
+
+Downloading: springboot 2.4.1
+
+In progress...
+
+######################################################################### 100.0%
+
+Installing: springboot 2.4.1
+Done installing!
+
+
+Setting springboot 2.4.1 as default.
+jiaoshy@jiaoshydeMacBook-Pro demo % ls
+app		gradle		gradlew		gradlew.bat	settings.gradle
+jiaoshy@jiaoshydeMacBook-Pro demo % cd 
+jiaoshy@jiaoshydeMacBook-Pro ~ % cd ~
+jiaoshy@jiaoshydeMacBook-Pro ~ % pwd
+/Users/jiaoshy
+jiaoshy@jiaoshydeMacBook-Pro ~ % java -version
+openjdk version "11.0.9.1" 2020-11-04
+OpenJDK Runtime Environment AdoptOpenJDK (build 11.0.9.1+1)
+OpenJDK 64-Bit Server VM AdoptOpenJDK (build 11.0.9.1+1, mixed mode)
+jiaoshy@jiaoshydeMacBook-Pro ~ % 
